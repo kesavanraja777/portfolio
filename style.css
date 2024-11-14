@@ -1,0 +1,151 @@
+.e{
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.vv{
+	font-size: xx-large;
+	font-family: fantasy;
+}
+.raja:hover{
+	color: rgb(240, 207, 18);
+}
+.kes {
+	font-size: x-large;
+    font-weight: 1000;
+    font-style: italic;
+}
+.avan {
+    background-color: #F36B21;
+    padding-bottom: 40px;
+}
+.aa{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow:   1px 3px orange, 1px 4px rgba(65, 78, 8, 0.233);
+}
+.aja{
+	line-height: 5px;
+	word-spacing: 4px;
+}
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff4ea;
+}
+.body1 {
+	width: 50vw;
+
+}
+
+.hexagonShapeBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;  
+    height: 250px;  
+    margin: auto;  
+}
+
+.hexagonShapeBox svg {
+    height: 100%; /* Fill the box */
+    width: 100%; /* Fill the box */
+}
+
+.hexagonShapeBox svg path {
+    fill: #F36B21;
+}
+.image-container {
+	width: 100%; /* Adjust width as necessary */
+	height: 600px; /* Set the height you want */
+	overflow: hidden; /* Hide the overflow */
+	position: relative; /* Position context for absolute children */
+  }
+  
+  .image-container img {
+	position: absolute;
+	top: 85%; /* Center vertically */
+	left: 50%; /* Center horizontally */
+	min-width: 100%; /* Ensure it fills the container */
+	min-height: 100%; /* Ensure it fills the container */
+	transform: translate(-50%, -50%); /* Adjust position to center */
+  }
+  .kesa{
+	margin-top: -200px;
+  }
+
+/* img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transform: rotate(-45deg);
+	bottom: 0px;
+} */
+
+.imageWrapper {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	overflow: hidden;
+	background-image:url(45290ba9-906a-4b45-a3a2-e6ab6f81b4db.jpg);
+	background-size: 180px;
+	background-position: center 40vh;
+	/* background-position: center bottom; */
+	background-repeat: no-repeat;
+	mask-image: url('https://res.cloudinary.com/animenation/image/upload/fl_preserve_transparency/v1722451806/hexa_dzmmis.jpg?_s=public-apps');
+	mask-size: 135px;
+	mask-repeat: no-repeat;
+	mask-position:center;
+	transition: all .4s;
+}
+
+.hexagonShapeBox:hover>.imageWrapper {
+	background-position: center bottom;
+}
+ 
+.skills-section {
+    margin: 40px 0; 
+}
+
+.bg-orange {
+    background-color: #F36B21; 
+}
+
+.bg-light-orange {
+    background-color: #FFCC99; 
+}
+
+.skill-box {
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.nvbg{
+	background-color: #F36B21;
+}
+.contact-section {
+    padding: 40px 0; 
+	background: #fff4ea;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px; 
+    font-weight: bold; 
+}
+
+.info-item {
+    text-align: center; 
+    background-color: #FFCC99; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.info-item i {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
